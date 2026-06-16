@@ -198,83 +198,119 @@
 
         
         <!-- Projects Section -->
-        <section class="projects section-padding" id="projects">
-            <div class="container">
-                <div class="section-header reveal">
-                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
-                    <p class="section-subtitle">Showcasing data engineering and AI solutions.</p>
-                </div>
-                
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <div class="project-card glass-card reveal">
-                        <div class="project-header">
-                            <div class="project-icon"><i data-lucide="activity"></i></div>
-                            <div class="project-links">
-                                <a href="https://github.com/Akhila-Kyatham/real-time-ml-data-platform" target="_blank" aria-label="GitHub Repository"><i data-lucide="github"></i></a>
-                            </div>
-                        </div>
-                        <h3>Real-Time Streaming Data Platform with ML Anomaly Detection</h3>
-                        <p>A real-time pipeline processing continuous streaming events and applying machine learning for anomaly detection instead of traditional batch processing.</p>
-                        <ul>
-                            <li>Built Python simulators for local streaming ingestion without full infrastructure.</li>
-                            <li>Applied Isolation Forest to detect unusual transaction patterns.</li>
-                            <li>Structured for AWS architecture (S3, Glue, Athena).</li>
-                        </ul>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Streaming</span>
-                            <span class="tech-tag">Isolation Forest</span>
-                            <span class="tech-tag">AWS</span>
-                        </div>
-                    </div>
+        <div class="projects-grid">
 
-                    <!-- Project 2 -->
-                    <div class="project-card glass-card reveal" style="transition-delay: 100ms;">
-                        <div class="project-header">
-                            <div class="project-icon"><i data-lucide="database"></i></div>
-                            <div class="project-links">
-                                <a href="https://github.com/Akhila-Kyatham/data-warehouse-analytics-platform" target="_blank" aria-label="GitHub Repository"><i data-lucide="github"></i></a>
-                            </div>
-                        </div>
-                        <h3>End-to-End Data Warehouse & Analytics Platform</h3>
-                        <p>An end-to-end batch ETL pipeline using Python and Pandas to transform raw sales data into analytics-ready structured datasets.</p>
-                        <ul>
-                            <li>Developed SQL queries for revenue and customer behavior insights.</li>
-                            <li>Organized data into raw and processed layers following warehouse best practices.</li>
-                            <li>Aligned solution with AWS data architecture (S3, Glue, Athena).</li>
-                        </ul>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python (Pandas)</span>
-                            <span class="tech-tag">ETL</span>
-                            <span class="tech-tag">SQL</span>
-                            <span class="tech-tag">AWS</span>
-                        </div>
-                    </div>
+             <!-- Project 1 -->
+             <a href="https://github.com/Akhila-Kyatham/real-time-ml-data-platform"
+                target="_blank"
+                class="project-card glass-card project-link reveal">
 
-                    <!-- Project 3 -->
-                    <div class="project-card glass-card reveal" style="transition-delay: 200ms;">
-                        <div class="project-header">
-                            <div class="project-icon"><i data-lucide="check-circle"></i></div>
-                            <div class="project-links">
-                                <a href="https://github.com/Akhila-Kyatham/data-validation-platform" target="_blank" aria-label="GitHub Repository"><i data-lucide="github"></i></a>
-                            </div>
-                        </div>
-                        <h3>AI Data Validation Platform</h3>
-                        <p>A modular validation pipeline ensuring data quality through automated schema checks, row count comparisons, and null value detection.</p>
-                        <ul>
-                            <li>Implemented end-to-end workflow simulating real-world engineering pipelines.</li>
-                            <li>Developed an interactive Streamlit dashboard for visualizing results.</li>
-                            <li>Enhanced pipeline reliability by handling duplicate and missing records.</li>
-                        </ul>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python (Pandas)</span>
-                            <span class="tech-tag">Streamlit</span>
-                            <span class="tech-tag">Data Quality</span>
-                        </div>
-                    </div>
-                </div>
+        <!-- Add image later -->
+        <!-- <img src="images/project1.png" alt="Real-Time Streaming Data Platform" class="project-image"> -->
+
+            <div class="project-header">
+                 <div class="project-icon">
+                      <i data-lucide="activity"></i>
+                 </div>
             </div>
+
+          <h3>Real-Time Streaming Data Platform with ML Anomaly Detection</h3>
+
+             <p>
+               A real-time pipeline processing continuous streaming events and applying
+               machine learning for anomaly detection instead of traditional batch processing.
+             </p>
+
+          <ul>
+            <li>Built Python simulators for local streaming ingestion without full infrastructure.</li>
+            <li>Applied Isolation Forest to detect unusual transaction patterns.</li>
+            <li>Structured for AWS architecture (S3, Glue, Athena).</li>
+          </ul>
+ 
+            <div class="project-tech">
+               <span class="tech-tag">Python</span>
+               <span class="tech-tag">Streaming</span>
+               <span class="tech-tag">Isolation Forest</span>
+               <span class="tech-tag">AWS</span>
+            </div>
+ 
+          </a>
+
+    <!-- Project 2 -->
+    <a href="https://github.com/Akhila-Kyatham/data-warehouse-analytics-platform"
+       target="_blank"
+       class="project-card glass-card project-link reveal"
+       style="transition-delay: 100ms;">
+
+        <!-- Add image later -->
+        <!-- <img src="images/project2.png" alt="Data Warehouse Platform" class="project-image"> -->
+
+        <div class="project-header">
+            <div class="project-icon">
+                <i data-lucide="database"></i>
+            </div>
+        </div>
+
+        <h3>End-to-End Data Warehouse & Analytics Platform</h3>
+
+        <p>
+            An end-to-end batch ETL pipeline using Python and Pandas to transform raw
+            sales data into analytics-ready structured datasets.
+        </p>
+
+        <ul>
+            <li>Developed SQL queries for revenue and customer behavior insights.</li>
+            <li>Organized data into raw and processed layers following warehouse best practices.</li>
+            <li>Aligned solution with AWS data architecture (S3, Glue, Athena).</li>
+        </ul>
+
+        <div class="project-tech">
+            <span class="tech-tag">Python (Pandas)</span>
+            <span class="tech-tag">ETL</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">AWS</span>
+        </div>
+
+    </a>
+
+    <!-- Project 3 -->
+    <a href="https://github.com/Akhila-Kyatham/data-validation-platform"
+       target="_blank"
+       class="project-card glass-card project-link reveal"
+       style="transition-delay: 200ms;">
+
+        <!-- Add image later -->
+        <!-- <img src="images/project3.png" alt="AI Data Validation Platform" class="project-image"> -->
+
+        <div class="project-header">
+            <div class="project-icon">
+                <i data-lucide="check-circle"></i>
+            </div>
+        </div>
+
+        <h3>AI Data Validation Platform</h3>
+
+        <p>
+            A modular validation pipeline ensuring data quality through automated schema
+            checks, row count comparisons, and null value detection.
+        </p>
+
+        <ul>
+            <li>Implemented end-to-end workflow simulating real-world engineering pipelines.</li>
+            <li>Developed an interactive Streamlit dashboard for visualizing results.</li>
+            <li>Enhanced pipeline reliability by handling duplicate and missing records.</li>
+        </ul>
+
+        <div class="project-tech">
+            <span class="tech-tag">Python (Pandas)</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Data Quality</span>
+        </div>
+
+    </a>
+
+</div>      
+
         </section>
 
         <!-- Experience Section -->
