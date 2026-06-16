@@ -579,19 +579,20 @@ ul { list-style: none; }
 .project-link {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
-.project-link:hover {
-    transform: translateY(-10px);
-}
-
-/* Project Image */
+/* Architecture Images */
 .project-image {
     width: 100%;
-    height: 220px;
-    object-fit: cover;
+    height: 240px;
+    object-fit: contain;
+    background: #ffffff;
     border-radius: 16px;
     margin-bottom: 1.5rem;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: transform 0.4s ease;
 }
 
 .project-card {
@@ -602,30 +603,33 @@ ul { list-style: none; }
     transition: all 0.35s ease;
 }
 
-.project-link {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-}
-
-.project-status {
-    display: inline-block;
-    color: var(--accent-sage);
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    transition: all 0.3s ease;
-}
-
 .project-card:hover {
     cursor: pointer;
     transform: translateY(-8px) scale(1.02);
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.03);
+}
+
+/* View Source Code badge */
+.project-status {
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(138, 154, 91, 0.15);
+    color: var(--accent-sage);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
 }
 
 .project-card:hover .project-status {
     transform: translateX(8px);
     color: var(--accent-gold);
 }
+
 .project-header {
     display: flex;
     justify-content: space-between;
@@ -655,7 +659,7 @@ ul { list-style: none; }
 
 .project-card h3 {
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     line-height: 1.3;
 }
 
@@ -701,19 +705,7 @@ ul { list-style: none; }
     border-radius: 20px;
     color: var(--accent-dark);
     font-weight: 500;
-}
-
-/* Optional: View Source Badge */
-.project-status {
-    display: inline-block;
-    padding: 4px 10px;
-    background: rgba(138, 154, 91, 0.15);
-    color: var(--accent-sage);
-    border-radius: 20px;
-    font-size: 0.8rem;
-    margin-bottom: 12px;
-    font-weight: 500;
-}  
+} 
 
 /* ==========================================================================
    Experience Timeline
