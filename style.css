@@ -351,6 +351,16 @@ ul { list-style: none; }
     letter-spacing: -1.5px;
 }
 
+.hero-tagline {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--accent-sage);
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
 .hero-subtitle {
     font-size: 1.15rem;
     color: var(--text-secondary);
