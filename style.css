@@ -585,13 +585,10 @@ ul { list-style: none; }
 /* Architecture Images */
 .project-image {
     width: 100%;
-    min-height: 320px;
-    max-height: 420px;
-    object-fit: contain;
-    background: #ffffff;
+    height: auto;
     border-radius: 16px;
     margin-bottom: 1.5rem;
-    padding: 5px;
+    background: #ffffff;
 }
 
 .project-card {
