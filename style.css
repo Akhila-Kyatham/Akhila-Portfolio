@@ -599,9 +599,33 @@ ul { list-style: none; }
     flex-direction: column;
     padding: 2.5rem;
     height: 100%;
-    transition: var(--transition-base);
+    transition: all 0.35s ease;
 }
 
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.project-status {
+    display: inline-block;
+    color: var(--accent-sage);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    cursor: pointer;
+    transform: translateY(-8px) scale(1.02);
+}
+
+.project-card:hover .project-status {
+    transform: translateX(8px);
+    color: var(--accent-gold);
+}
 .project-header {
     display: flex;
     justify-content: space-between;
